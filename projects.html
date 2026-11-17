@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore web development projects by Moses Oketch and Fred Karani.">
+  <title>Projects | M&F Web Studio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">M<span>&</span>F</span> Web Studio</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><ul>
+      <li><a href="index.html">Home</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li>
+    </ul></nav>
+    <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+  </div></header>
+  <main id="main" class="container">
+    <header class="page-header"><p class="eyebrow">Selected work & experiments</p><h1>Projects that move us forward.</h1><p class="lead">A growing collection of exercises and ideas from our web development journey.</p></header>
+    <section class="project-explorer" aria-label="Project explorer">
+      <label class="search-label" for="project-search">Search projects</label>
+      <input id="project-search" class="project-search" type="search" placeholder="Try “Git”, “layout” or “JavaScript”…">
+      <div class="filters" role="group" aria-label="Filter projects by technology">
+        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All work</button>
+        <button class="filter-btn" type="button" data-filter="html" aria-pressed="false">HTML</button>
+        <button class="filter-btn" type="button" data-filter="css" aria-pressed="false">CSS</button>
+        <button class="filter-btn" type="button" data-filter="js" aria-pressed="false">JavaScript</button>
+        <button class="filter-btn" type="button" data-filter="git" aria-pressed="false">Git</button>
+      </div>
+      <p id="project-count" class="project-count" aria-live="polite"></p>
+      <div id="project-list" class="project-grid"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="index.html">M<span>&</span>F Web Studio</a><p>© <span id="year">2026</span> M&F Web Studio · Built for CSC 216.</p><a href="contact.html">Start a conversation ↗</a></div></footer>
+</body>
+</html>
