@@ -12,7 +12,7 @@ A responsive multi-page team website built with plain HTML, CSS and JavaScript.
 | Name | Registration no. | GitHub username |
 |---|---|---|
 | Moses Oketch | COM/3501/26 | Moses459 |
-| Fred Karani | COM/2473/26 | Fred3478 |
+| Fred Karani | COM/7032/26 | karanifred553-ops |
 
 ## Driver allocation
 The lab handout says Partner A is the partner whose first name comes first alphabetically. Using that rule, Fred Karani is Partner A and Moses Oketch is Partner B.
